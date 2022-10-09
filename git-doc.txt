@@ -5,4 +5,36 @@ git clone /path/to/repository
 using a remote server
 
 git clone username@host:/path/to/repository
+git remote -v 
+git remote add origin xxxx.git
+
+
+
+
+
+git branch
+git checkout rama
+
+git add nombrearchivo  
+git commit nombre archivo
+git status 
+git status -s
+
+git log
+git log --oneline
+
+
+git reset nrodecommitalquequiero volver   // esto deja los cambios en el directorio , fuera del stage
+git reset --hard nrocommit...	          // esto deshace todo y todo queda como en el commit nrocommit...
+git reset --soft nrocommit...	          // esto deshace pero los cambios quedan en la etapa de stage    
+
+
+git diff 
+git diff #commit1 #commit2
+
+git diff HEAD~2 //HEAD commit actual 	~ significa menos por lo que sería 2 commits anteriores al actual~
+
+git revert #commit 			// revierte todo en ese commit . Inclusive hace el commit de lo revertido
+git revert --no-commit #commit		// deja lo revertido en stage
+git revert --continue 			// termina los commit de todo revertido en stage
 
