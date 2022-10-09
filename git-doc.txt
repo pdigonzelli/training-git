@@ -1,0 +1,8 @@
+1.- making copies of local or remote repositories
+working copy of local directory
+git clone /path/to/repository
+
+using a remote server
+
+git clone username@host:/path/to/repository
+
