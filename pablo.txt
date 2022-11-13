@@ -1,1 +1,1 @@
-mi prueba para fetch y para pull, agrego mejor esto otro - lo voy a modificar en buena_idea
+mi prueba para fetch y para pull, agrego mejor esto otro - lo voy a modificar en buena_idea - ahora en issue#2 pero en origin
